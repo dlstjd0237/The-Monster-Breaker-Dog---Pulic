@@ -1,0 +1,30 @@
+#Fade.on {
+    background-color: rgba(0, 0, 0, 0.74);
+    opacity: 0;
+}
+
+#CurrentMapSet.on {
+    margin-left: -695px;
+}
+
+.Stage {
+    transition-duration: 0.3s;
+}
+
+.Stage:hover {
+    scale: 1.1 1.1;
+}
+
+#Parent.on {
+    opacity: 0;
+    scale: 1 1;
+}
+
+#btn-accept:hover {
+    scale: 1.05 1.05;
+}
+
+#btn-exit:hover {
+    scale: 1.05 1.05;
+    transition-duration: 0.6s;
+}

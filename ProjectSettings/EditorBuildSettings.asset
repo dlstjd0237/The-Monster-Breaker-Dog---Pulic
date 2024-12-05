@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/00_Scenes/TitleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/00_Scenes/StartScene.unity
+    guid: b7efd7eba2da2c64cbef76a88c6eaf62
+  - enabled: 1
+    path: Assets/00_Scenes/InGameLobby.unity
+    guid: 5f21b2efc077a0f4fb35e3c137736873
+  - enabled: 1
+    path: Assets/00_Scenes/01_Stage.unity
+    guid: 738003245ab70844bb7c63c0579419d5
+  - enabled: 1
+    path: Assets/00_Scenes/Sanctuary of Souls.unity
+    guid: 2dae2091a9df5554ab297e542df3565b
+  - enabled: 1
+    path: Assets/00_Scenes/Castle.unity
+    guid: ff179c04c46ba7a489ef42740ef47b1a
+  - enabled: 1
+    path: Assets/00_Scenes/Desert.unity
+    guid: 252bfa41218daf148aa0eff6a55b8d21
+  - enabled: 1
+    path: Assets/00_Scenes/Demo_Dungeon_01.unity
+    guid: d515063cc7e552649959320dfe40578b
+  m_configObjects: {}

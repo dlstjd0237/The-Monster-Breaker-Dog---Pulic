@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af934d4e8844e364db2fb76a91747555, type: 3}
+  m_Name: 03_Skill
+  m_EditorClassIdentifier: 
+  SkillUsePos: 0
+  SkillType: 1
+  SkiilRoot: {x: 0, y: 0, z: 0, w: 1}
+  SkillName: "\uADE0\uC69C"
+  SkillKey: 104
+  Info: "\uC0AC\uC6A9\uC2DC : \uADE0\uC5F4\uC744 \uC0DD\uC131"
+  Sprite: {fileID: 21300000, guid: 08c71e4e0565fe4469d1e0a593047156, type: 3}
+  UpPower: 0
+  UpAttakSpeed: 0
+  UpHp: 0
+  Effect: {fileID: 1601494591900918, guid: 61ee9554f7c3b03408fc8258477fddf5, type: 3}
+  CoolTime: 0

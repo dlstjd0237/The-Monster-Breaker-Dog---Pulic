@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ea34cc6b659bd4293864eb502f476e, type: 3}
+  m_Name: 05_SkeletonSO
+  m_EditorClassIdentifier: 
+  Name: DesertSkeleton
+  ShowName: "\uC0AC\uB9C9\uC2A4\uCF08\uB808\uD1A4"
+  Lv: 12
+  MaxHp: 450
+  AttackDamage: 28
+  AttackCoolDown: 3
+  MoveSpeed: 2.2
+  DropGoldMax: 94
+  DropGoldMin: 35
+  DropExp: 600
+  ChaseRange: 10
+  AttackRange: 1.2

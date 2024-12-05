@@ -1,0 +1,53 @@
+#contain-up {
+    height: 35%;
+}
+
+#contain-down {
+    height: 65%;
+}
+
+.Text {
+    -unity-font: url('project://database/Assets/09_Fonts/HeirofLightBold.ttf?fileID=12800000&guid=71579608697d46b499754496fe1d11cf&type=3#HeirofLightBold');
+    -unity-font-definition: initial;
+    -unity-text-align: middle-center;
+    align-items: stretch;
+    font-size: 124px;
+    text-shadow: 3.5px 2.6px 0 rgba(0, 0, 0, 0);
+    -unity-text-outline-color: rgb(255, 255, 255);
+    -unity-text-outline-width: 2px;
+}
+
+.Btn {
+    width: 600px;
+    height: 130px;
+    -unity-font: url('project://database/Assets/09_Fonts/HeirofLightBold.ttf?fileID=12800000&guid=71579608697d46b499754496fe1d11cf&type=3#HeirofLightBold');
+    -unity-font-definition: initial;
+    font-size: 91px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+    -unity-text-outline-color: rgb(10, 10, 10);
+    -unity-text-outline-width: 1px;
+}
+
+.Btn:hover {
+    rotate: 8deg;
+}
+
+#contain-down.on {
+    scale: 0 0;
+}
+
+.NewStartContain {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    width: 60%;
+    height: 40%;
+}
+
+#newstartcontain.on {
+    margin-top: -880px;
+}

@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/10_UIToolkit/StartScene.uss?fileID=7433441132597879392&amp;guid=907af6e03808f8747a40328ed17d3da3&amp;type=3#StartScene" />
+    <ui:VisualElement name="contain" style="flex-grow: 1;">
+        <ui:VisualElement name="contain-up" style="justify-content: center;">
+            <ui:Label tabindex="-1" text="The Monster&#10;Breaker" parse-escape-sequences="true" display-tooltip-when-elided="true" class="Text" style="font-size: 162px; -unity-paragraph-spacing: -55px; color: rgb(255, 175, 0); -unity-text-outline-color: rgb(0, 0, 0); text-shadow: 8.1px 4.4px 11.9px rgb(0, 0, 0);" />
+        </ui:VisualElement>
+        <ui:VisualElement name="contain-down" style="align-self: center; justify-content: space-around; align-items: stretch; transition-duration: 0.7s; transition-timing-function: ease-in-out-back;">
+            <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="start-btn" class="Btn" style="transition-timing-function: ease-in-out-back; transition-duration: 0.6s;" />
+            <ui:Button text="Option" parse-escape-sequences="true" display-tooltip-when-elided="true" name="option-btn" class="Btn" style="transition-timing-function: ease-in-out-back; transition-duration: 0.6s;" />
+            <ui:Button text="Exit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exit-btn" class="Btn" style="transition-duration: 0.6s; transition-timing-function: ease-in-out-back;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="newstartcontain" class="NewStartContain" style="left: 390px; top: 1223px; transition-duration: 1.2s; align-items: stretch; flex-direction: column; justify-content: space-around; align-self: center; border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px;">
+            <ui:Label tabindex="-1" text="게임을 처음부터 시작하겠습니까?" parse-escape-sequences="true" display-tooltip-when-elided="true" class="Text" style="font-size: 70px; margin-top: 16px;" />
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="erorr-label" text="저장된 데이터가 없습니다." style="-unity-font: url(&apos;project://database/Assets/09_Fonts/HeirofLightBold.ttf?fileID=12800000&amp;guid=71579608697d46b499754496fe1d11cf&amp;type=3#HeirofLightBold&apos;); -unity-font-definition: initial; font-size: 32px; color: rgba(255, 0, 0, 0.46); -unity-text-align: upper-center; visibility: visible; overflow: visible; display: flex; padding-top: -53px; margin-top: 2px; position: absolute; top: 156px; left: 370px;" />
+            <ui:VisualElement name="btncontain-box" style="flex-direction: row; justify-content: space-around; align-self: stretch;">
+                <ui:Button text="처음부터하기" parse-escape-sequences="true" display-tooltip-when-elided="true" name="newgame-btn" class="Btn" style="color: rgb(255, 255, 255); font-size: 60px; transition-duration: 0.6s;" />
+                <ui:Button text="이어하기" parse-escape-sequences="true" display-tooltip-when-elided="true" name="continue-btn" class="Btn" style="font-size: 60px; color: rgb(255, 255, 255); transition-duration: 0.6s;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

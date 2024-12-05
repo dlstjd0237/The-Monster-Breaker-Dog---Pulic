@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ffc0fa7d032354193f4d1708723ca2, type: 3}
+  m_Name: Stage2
+  m_EditorClassIdentifier: 
+  _head: "\uC81C2\uB358\uC804 \uC678\uBD80"
+  _body: "\uBAA8\uB798 \uD3ED\uD48D\uC744 \uC8FC\uC758\uD558\uC790"
+  _image: {fileID: 2800000, guid: 2dc7273ce4d3a31418e04c14847eb73b, type: 3}
+  _loadSceneName: Desert

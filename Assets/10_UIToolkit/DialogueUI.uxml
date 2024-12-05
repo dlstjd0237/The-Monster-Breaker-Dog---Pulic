@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/10_UIToolkit/DialogueUI.uss?fileID=7433441132597879392&amp;guid=47b4685101f15dc47ade69332b1a66c1&amp;type=3#DialogueUI" />
+    <ui:VisualElement name="contain" class="off" style="flex-grow: 1; align-self: stretch; align-items: center; justify-content: flex-end; flex-direction: column; flex-wrap: wrap; transition-duration: 0.4s; transition-timing-function: ease;">
+        <ui:Label tabindex="-1" text="플레이" parse-escape-sequences="false" display-tooltip-when-elided="true" name="name-label" enable-rich-text="true" focusable="false" class="name-label" />
+        <ui:VisualElement name="textcontain-box" class="textcontain-box">
+            <ui:VisualElement name="outline-box" class="outline">
+                <ui:Label tabindex="-1" text="F키를 눌러 다음 대화를 진행하세요." parse-escape-sequences="true" display-tooltip-when-elided="true" name="helptext-label" class="helptext-label" style="-unity-font: url(&apos;project://database/Assets/09_Fonts/DNFForgedBlade-Medium.ttf?fileID=12800000&amp;guid=7c783846f784bf44b933f285aac1dd5f&amp;type=3#DNFForgedBlade-Medium&apos;);" />
+                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="content-label" class="content-label" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

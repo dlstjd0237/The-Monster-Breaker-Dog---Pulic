@@ -1,0 +1,82 @@
+{
+    "name": "SoulInput",
+    "maps": [
+        {
+            "name": "OnFloor",
+            "id": "b236af67-1d2d-4d45-a9e0-5b5243d76cd6",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "23245921-328a-43d0-8f40-bffe7d4721f2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "9341e63d-42a1-45fe-8970-1865e9b59ef3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6bb8e1a8-f465-4a8d-847a-7af5f73e3aa8",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c26c27e8-5571-4796-8f4b-754b1e47aec8",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "OnText",
+            "id": "dc83a746-3625-4f4d-8212-e3e8610e1350",
+            "actions": [
+                {
+                    "name": "NextText",
+                    "type": "Button",
+                    "id": "8302b214-d031-4c06-9395-34f804ccb4a3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3a973e03-a077-43f7-8eb0-c8d4a5d96093",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "NextText",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
